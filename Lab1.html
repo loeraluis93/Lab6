@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Page</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script src= "js/jquery-1.11.3.min.js" type="text/javascript">
+	</script>
+	<script type="text/javascript" src="js/indexjs.js"></script>
+	<header>
+		<section>
+		<div id="header">
+		<H2 id="Tittle">The Jammer</H2>
+		<p id="moto">"Connecting and sharing with people since 2016"</p>
+		</div>
+		</section>
+	</header>
+	</br>
+</head>
+<body>
+	<form id="#myform">
+		<fieldset>
+			<legend>Login</legend>
+			<p>
+			<input type="text" id="USER" placeholder="Username">
+			<input type="password" id="password" placeholder="Password">
+			</p>
+			<span id="ErrorLogin" class="Error"></span>
+			<p>
+			<input type="checkbox" name="Remember" id="remember"> Remember me</p>
+			<span>
+				<input type="submit" value="Login" id="Login" class="button_l">
+				<input type="submit" value="Cancel" id="Cancel" class="button_l">
+			</span>
+		</fieldset>
+	</form>
+	<form>
+		<fieldset>
+			<legend>Registration information</legend>
+				<table align="center">
+				<div>
+					<tr>
+						<th><input type="text" placeholder="First Name" id="First_name" class="Reg_info"></th>
+						<th> <input type="text" placeholder="Last Name" id="Last_name" class="Reg_info"></th>
+					</tr>
+					<tr>
+						<th><input type="text" placeholder="Username" id="user_reg" class="Reg_info"></th>
+					</tr>
+					<tr>
+						<th><input type="text" placeholder="Email"id="email_reg" class="Reg_info"></th>
+					</tr>
+					<tr>
+					<th><input type="password" id="password_reg" class="Reg_info" placeholder="password"></th>
+					<th><input type="password" id="password_reg_conf" class="Reg_info"placeholder="password confirmation"></th>
+					</tr>
+				</table>
+			<div id="ErrorName" class="Error"></div>
+			<div id="UserError" class="Error"></div>
+			<div id="MailError" class="Error"></div>
+			<div id="passwordError" class="Error"></div>
+			<p>	
+			<H3>Gender</H3>
+			<input type="radio" id="radio_1" name="gender" value="Masculine" id="Male" class="Gend" > Masculine 
+			</br>
+			<input type="radio" name="gender" value="Femenine" id="Female" class="Gend" > Femenine
+			</p>
+			<p>
+				<span id="Gender_sel" class="Error"></span>
+			</p>
+			<select id="sel">
+				<option value="1"> Select Country</option>
+				<option value="2"> Afghanistan </option>
+				<option value="3"> Algeria </option>
+				<option value="4"> Belgium </option>
+				<option value="5"> Cambodia </option>
+				<option value="6"> Chile</option>
+				<option value="7"> Cuba </option>
+				<option value="8"> Greece </option>
+				<option value="9"> Guyana </option>
+				<option value="10"> India </option>
+				<option value="11"> Japan </option>
+				<option value="12"> México </option>
+				<option value="13"> Mongolia </option>
+				<option value="14"> Pakistan </option>
+				<option value="15"> Romania </option>
+				<option value="16"> Venezuela </option>
+			</select></br>
+			<span id="radio_o" class="Error"></span>
+			</br>
+			</br>
+			<span>
+			<input type="submit" value="Cancel" id="canel" class="Reg_button">
+			<input type="submit" value="Register" id="reg" class="Reg_button">
+			</span>
+		</fieldset>
+	</form>
+</body>
+
+</html>

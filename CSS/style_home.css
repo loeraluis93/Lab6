@@ -1,0 +1,138 @@
+h1#title{
+    background: url('../IMG/jammer_logo.png') no-repeat 5px center #CCE9F8;
+    background-color: #2e4a93;
+    margin: 0px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+ #menu_out{
+    height: 84px;
+    background-color: #CCC;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    width: auto;
+ }
+ #table{
+    display: table;
+    margin: 0 auto;
+    width: auto;
+ }
+ #serach{
+    width: auto;
+ }
+ ul#menu{
+    min-width: 696px;
+    list-style: none;
+    background-color: #CCC;
+    width:auto;
+ }
+
+ ul#menu li{
+    float:left;
+    display: inline;
+    padding: 20px;
+    width:auto;
+ }
+ul#menu li:hover, ul#menu li.selected{
+    background-color: #999;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    width: auto;
+}
+li {
+    border-right: 1px solid #bbb;
+    width: auto;
+}
+li:last-child {
+    border-right: none;
+}
+body{
+    background-image: url('../IMG/background.jpg');
+}
+#hero{
+    display: table;
+    width:90%;
+    height: auto+10px;
+    max-height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    max-width: 670px;
+}
+#moto{
+    text-align: center;
+    font-style: italic;
+    color: #000000;
+}
+#comment{
+    width: 20px;
+    font-style: italic;
+}
+.comment_section{
+    width: 90%;
+    max-width:600px;
+    height: 40px;
+    min-height:20px ;
+    max-height:40px;
+    font-size: 1em;
+}
+#send_comment{
+    background: #CCC;
+    float: center;
+    height: 40px;
+    font-color: #CC1;
+}
+.container{
+    background: #CCC;
+    border-style: solid;
+    text-align: left;
+    width: 90%;
+    max-width: 670px;
+    height: auto;
+}
+.comment_added{
+    background: #CCC;
+}
+
+label#user{
+    font-weight: bold;
+}
+
+label#text{
+    font-style: italic;
+}
+#image{
+    float: left;
+}
+.usr{
+    font-weight: bold;
+    font-style: normal;
+}
+.image{
+    width: 210px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#imgdiv{
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+}
+#infor{
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    font-style: italic;
+
+}
+#ProfileDisplay{
+    max-width: 670px;
+    background-color: #CCC;
+}
+img#imagprof:hover{
+    cursor: pointer;
+}
